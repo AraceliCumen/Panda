@@ -80,14 +80,13 @@ body {
 
   .columna-large p{
     text-align: justify;
-    padding-top:10px;
   }
 
   footer{
     padding: 20px;
   }
 
-  .h2{
+  h2{
     text-align: center;
     color: #ffffff;
     margin-bottom: 30px;
@@ -112,7 +111,7 @@ body {
 
 @media (min-width: 480px) {
 
-    .columna-xs-12 { 
+    .columna-xs-1 { 
         /* (12 / 12) * 100 */
         width: 100%;
     }
@@ -122,26 +121,11 @@ body {
 /* Tablet */
 
 @media (min-width: 768px) {
-
-    .columna-ms-3 {
-        /* (3 / 12) * 100 
-        100 - 6 = 94/4 = 23.5%  */
-        width: 23.5%; 
-    }
     
-    .columna-ms-3:nth-child(4n) {
-     margin-right: 0;
-    }
-    
-    .columna-ms-6 { 
+    .columna-ms-1 { 
         /* (5 / 12) * 100  --> 49 * 2 = 98 */
-        width: 49%;
-    }
-    
-    .columna-ms-6:nth-child(2n) { 
-     margin-right: 0;
-    }
-    
+        width: 100%;
+    } 
 
 } 
 /* Para los media Queries necesito definir los brakpoints */
@@ -155,94 +139,13 @@ large 992px */
     /* Las divisiones (gutters) son uno menos 
     que la cantidad de columnas */
 
-    .columna-1 {
-        /* (1 / 12) * 100 
-        100-22 = 78%12 = 6.5
-        */
-        /* width: 8.333333%; */
-        width: 6.5%;
-    }
-
-
-    .columna-1:last-child {
-    margin-right: 0;
-    }
-
-    .columna-2 {
-        /* (2 / 12) * 100 
-        100-10 = 90 / 6 = 15*/
-        width: 15%;
-    }
-
-    .columna-2:nth-child(6n) {
-    margin-right:0;
-    }
-
-    .columna-3 {
-        /* (3 / 12) * 100 
-        100 - 6 = 94/4 = 23.5%  */
-        width: 23.5%; 
-    }
-
-    .columna-3:nth-child(4n) {
-    margin-right: 0;
-    }
-
-    .columna-4 {
-        /* (4 / 12) * 100 
-            100 - 4 = 96  96/3 = 32%   */
-    width: 28%;
-    }
     .columna-large{
-    width: 40%;
-    margin-left: 30%;
+        width: 40%;
+        margin-left: 30%;
     }
-
-    .columna-4:nth-child(3n) {
-    margin-right: 0;
-    }
-
-
-    .columna-6 { 
-        /* (5 / 12) * 100  --> 49 * 2 = 98 */
-        width: 49%;
-    }
-
-    .columna-6:nth-child(2n) { 
-    margin-right: 0;
-    }
-
-    .columna-9 { 
-        /* (9 / 12) * 100 */
-        width: 74.5%;
-    }
-
-
-    .columna-12 { 
-        /* (12 / 12) * 100 */
-        width: 100%;
-    }
-
-    .right-sidebar aside {
-        margin-right: 0;
-    }
-
-    .left-sidebar .columna-9 {
-        margin-right: 0;
-    }
-
-
-    .columna-12 { 
-        /* (12 / 12) * 100 */
-        width: 100%;
-    }
-
-    .columna-md-3{
-        max-width: 20%;
-    }
-
-    .columna-md-3:nth-child(1n){
-       margin-left: 7%;
+  
+    .columna-md-4{
+        max-width: 25%;
     }
 
 }
