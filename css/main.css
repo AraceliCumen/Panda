@@ -109,7 +109,7 @@ body {
 
 
 
-@media (max-width: 480px) {
+@media (max-width: 480px ) {
 
     .columna-xs-1 { 
         /* (12 / 12) * 100 */
@@ -117,6 +117,15 @@ body {
     } 
     
 } 
+
+@media (min-width: 480px ) {
+    
+        .columna-xs-1 { 
+            /* (12 / 12) * 100 */
+            width: 100%;
+        } 
+        
+    } 
 
 /* Tablet */
 
@@ -126,7 +135,6 @@ body {
         /* (5 / 12) * 100  --> 49 * 2 = 98 */
         width: 100%;
     } 
-
 
 } 
 /* Para los media Queries necesito definir los brakpoints */
