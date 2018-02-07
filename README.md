@@ -11,7 +11,7 @@
 
 ## Resultados aqui:
 
-![Resultados proyecto panda](/assets/img/ResultadosPanda.png"Resultados proyecto panda")
+![Resultados proyecto panda](assets/img/ResultadosPanda.png"Resultados proyecto panda")
 
 ## Ver la demo aqui:
 
